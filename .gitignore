@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Secrets and config
+.env
+.env.local
+*.key
+
+# Project data (user-specific, not to share)
+.pluto/
+
+# Compiled artifacts
+*.out
+*.exe
+
+# Logs
+*.log
+nohup.out
+
+# Editor temp files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
